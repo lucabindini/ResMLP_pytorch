@@ -1,5 +1,5 @@
 **/__pycache__
 .vscode
 datasets
-
+performance.csv
 ResMLP_model.pth

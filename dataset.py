@@ -18,7 +18,7 @@ test_data = torchvision.datasets.STL10(
     transform=torchvision.transforms.ToTensor(),
 ) 
 
-batch_size = 64
+batch_size = 256
 
 # Create training data loader
 train_dataloader = DataLoader(training_data, batch_size=batch_size, shuffle=True)
