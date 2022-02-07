@@ -2,4 +2,4 @@
 .vscode
 datasets
 performance.csv
-ResMLP_model.pth
+saved_model.pth

@@ -38,7 +38,7 @@ def test(data, model, device, loss_fn):
     with torch.no_grad():
         for X, y in data:
             X, y = X.to(device), y.to(device)
-            pred = model(x)
+            pred = model(X)
             test_loss += loss_fn(pred, y).item()
             correct += (pred.argmax(1) == y).type(torch.float).sum().item()
     test_loss /= num_batches
