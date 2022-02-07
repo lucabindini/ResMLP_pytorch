@@ -1,5 +1,6 @@
 **/__pycache__
 .vscode
+.ipynb_checkpoints
 datasets
 performance.csv
 saved_model.pth

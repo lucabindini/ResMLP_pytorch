@@ -33,7 +33,7 @@ class MLPblock(nn.Module):
             Rearrange('b d n -> b n d'),
         )
         self.ff = nn.Sequential(
-            FeedForward(dim, 4*dim),
+            FeedForward(dim),
         )
         self.post_affine = Aff(dim)
         self.layerscale_1 = nn.Parameter(layerscale_init * torch.ones((dim)), requires_grad=True)
