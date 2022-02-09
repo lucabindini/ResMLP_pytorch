@@ -2,5 +2,6 @@
 .vscode
 .ipynb_checkpoints
 datasets
-performance.csv
+performance_with_distillation.csv
+performance_without_distillation.csv
 saved_model.pth
